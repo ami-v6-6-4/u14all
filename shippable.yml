@@ -13,15 +13,15 @@ services:
   - mysql #5.7.22
   - postgres #10.4
   - rabbitmq #3.6.15-1
-  - redis #4.0.9
+  - redis #4.0.10
   - riak #2.2.3
   - selenium #3.11.0
   - sqlite #3.22.0
- 
+
 build:
   pre_ci_boot:
     image_name: drydock/u14all
-    image_tag: v6.5.4
+    image_tag: v6.6.4
     pull: true
     
   ci:
